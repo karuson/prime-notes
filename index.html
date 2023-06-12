@@ -28,29 +28,59 @@
             mv > move/rename<br>
             rm > delete file<br>
             rm -R > delete directory<br>
+            code . > opens project in code editor<br>
+            open [ file ] > opens file
+            <br>
+            *** up arrow key can be used to go to last command run in the terminal ***<br>
             </p>
-
-        <h2>GitHub / Git</h2>
-        
+                <h3>Git & GitHub</h3>
+                    <p>
+                        Git is a way to track changes that you make to code<br>
+                        GitHub is library of our saved code, portfolio<br>
+                        <br>
+                        <h4>Configuration</h4>
+                            git --version //check git version<br>
+                            git config --global user.name "" //set user name<br>
+                            git config --global user.email "" //set email with Git signup email address<br>
+                            git config --global init.defaultBranch "main" //naming branch main<br>
+                        
+                        <h4>Process</h4>
+                            Fork //make copy of the repo (assignment) on GitHub > on Prime GitHub page select fork to your account from the menu bar, make sure it shows your username afterwards<br>
+                            Clone //bring copy to local computer > open the forked project, select code SSH (make sure you are at your forked version), copy URL<br>
+                            Change //write and edit code<br>
+                            Stage //select files to save<br>
+                            Commit //finalize save changes to local computer<br>
+                            <br>
+                            git clone [ copied SSH URL ] //clone forked project to local computer<br>
+                            git status //shows changes<br>
+                            git add . //stages files to be ready for commit(save)<br>
+                            git commmit -m "" //finalizes changes with message<br>
+                            git push origin main //sends updated commit to GitHub<br>
+                    </p>
         <h2>JavaScript</h2>
             <p>
                 let = declaration<br>
                 value = assignment<br>
                 let [variable] = value;<br> 
                 <br>
-                examples:<br>
-                let time = '2:47 p.m.';<br>
-                let location = 'prime'; //string<br>
-                let cats = 1; //number<br>
-                let hungry = true; //boolean<br>
+                string variables // text or string of characters<br>
+                number variables // constant numbers<br>
+                boolean variables // true or false<br>
                 <br>
-                const = constant > doesn't change<br>
+                const = constant declaration > doesn't change<br>
+
+                +/- operator can do arithmetic or concatanate 2 strings<br>
+                ex. let stringVar = "I like " + "my dogs"<br>
+                stringVar = "I like my dogs"<br>
+                <br>
+                ++/-- increment/decrease by 1<br>
+                ex. plants = 3<br>
+                plants ++ = 4<br>
+
+
             </p>
 
-        <h2>variablesPractical</h2>
-            <p>
-                
-            </p>
+        
 
         
 </body>
